@@ -24,7 +24,7 @@ USERNAME = environ.get('USERNAME', "https://t.me/Nightfuries_007")  # Replace wi
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002353120423'))  # Replace with your log channel ID
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+8uYM2yGw4BA4MmY1')
 
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002353120423').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001224814913').split()]
 #---------------------------------------------------------------
 
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Nighty007:AAdmin2025@cluster0.dr0dx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
