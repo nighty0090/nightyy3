@@ -6,11 +6,11 @@ from urllib.parse import quote_plus
 import humanize
 
 # Configurations
-API_ID = "your_api_id"
-API_HASH = "your_api_hash"
-BOT_TOKEN = "your_bot_token"
+API_ID = "26553080"
+API_HASH = "bfc2a72e9d69e8dc5675bd9370e4f437"
+BOT_TOKEN = "6960970165:AAHGGZa6utChpUmOdQLqvkatt6NijD-pf20"
 URL = "your_base_url"
-LOG_CHANNEL = -1001234567890  # Your log channel ID, also used for movie storage
+LOG_CHANNEL = "-1002353120423"  # Your log channel ID, also used for movie storage
 
 # Initialize bot
 bot = Client("MovieStreamBot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
